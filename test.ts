@@ -1,8 +1,8 @@
-import { weatherFinder } from "./src/index.js";
+import weatherfinder from "./src/index.js";
 
 async function main(){
-  const weather = await weatherFinder("london", "united kingdom", { allData: false, icons: null })
-  console.log(weather.forecast)
+  const weather = await weatherfinder.find("new york", "ny, united states")
+  console.log(weather)
 }
 
 main()

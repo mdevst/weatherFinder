@@ -5,13 +5,13 @@ export default {
   output: [
     {
       file: 'dist/index.esm.js',
-      format: 'esm' // ES6 modül
+      format: 'esm'
     },
     {
       file: 'dist/index.cjs.js',
-      format: 'cjs' // CommonJS modül
+      format: 'cjs'
     }
   ],
   plugins: [typescript()],
-  external: [] // Harici modülleri ekleyebilirsiniz
+  external: []
 };
