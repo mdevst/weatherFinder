@@ -1,12 +1,26 @@
 {
   "name": "weatherfinder",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "description": "Module to learn the weather anywhere in the world.",
   "type": "module",
   "scripts": {
     "build": "tsc && rollup -c",
     "start": "npx tsx test.ts"
   },
+  "keywords": [
+    "weather",
+    "weatherjs",
+    "api",
+    "weatherfinder",
+    "find",
+    "noapikey",
+    "forecast",
+    "javascript",
+    "typescript",
+    "weather-js",
+    "finder",
+    "find"
+  ],
   "main": "./dist/src/index.js",
   "module": "./dist/index.esm.js",
   "types": "./dist/src/index.d.ts",
@@ -20,9 +34,6 @@
     "typescript": "^5.3.3"
   },
   "dependencies": {
-    "axios": "^1.7.7",
-    "chalk": "^5.3.0",
-    "fs": "^0.0.1-security",
     "node-fetch": "^3.3.2",
     "rollup": "^4.24.0",
     "rollup-plugin-typescript2": "^0.36.0",
